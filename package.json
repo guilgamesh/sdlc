@@ -1,0 +1,41 @@
+{
+  "name": "sdlc-service",
+  "version": "1.0.0",
+  "description": "REST Service for the SDLC Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*Test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilgamesh/sdlc.git"
+  },
+  "keywords": [
+    "sdlc",
+    "rest",
+    "api",
+    "mysql"
+  ],
+  "author": "Aristóteles Portillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilgamesh/sdlc/issues"
+  },
+  "homepage": "https://github.com/guilgamesh/sdlc#readme",
+  "dependencies": {
+    "@mysql/xdevapi": "^8.0.13",
+    "@types/mysql": "^2.15.5",
+    "@types/node": "^10.9.4",
+    "@types/typescript": "^2.0.0",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0",
+    "properties-reader": "0.0.16"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1"
+  }
+}
